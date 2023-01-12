@@ -30,5 +30,5 @@ const newArray2 = orders.map((item) => {
    };
 });
 
-console.log(orders);
-console.log(newArray2);
+console.log({ orders });
+console.log({ newArray2 });

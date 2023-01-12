@@ -1,8 +1,8 @@
 const words = ['spray', 'elites', 'limit', 'apple', 'exuberant'];
 const newWords = [];
 
-const rta = words.filter((item) => item.length >= 6);
-console.log(rta);
+const rta1 = words.filter((item) => item.length >= 6);
+console.log({ rta1 });
 
 const orders = [
    {
@@ -28,7 +28,7 @@ const orders = [
 ];
 
 const rta2 = orders.filter((item) => item.delivered && item.total >= 100);
-console.log(rta2);
+console.log({ rta2 });
 console.log(orders);
 
 const search = (query) => {

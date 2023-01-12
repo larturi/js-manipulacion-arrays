@@ -9,7 +9,7 @@ const result = items.reduce((accum, item) => {
    return accum;
 }, {});
 
-console.log(result);
+console.log({ result });
 
 const data = [
    {
@@ -49,4 +49,4 @@ const rta1 = data
       return obj;
    }, {});
 
-console.log(rta1);
+console.log({ rta1 });

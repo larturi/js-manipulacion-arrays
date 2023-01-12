@@ -2,8 +2,8 @@ const numbers = [1, 2, 3, 4];
 
 // Evalua si hay un numero par
 // Devuelve siempre true o false
-const rta = numbers.some((item) => item % 2 === 0);
-console.log(rta);
+const rta1 = numbers.some((item) => item % 2 === 0);
+console.log({ rta1 });
 
 const orders = [
    {
@@ -29,6 +29,5 @@ const orders = [
 ];
 
 // Hay alguna orden entregada?
-
 const rta2 = orders.some((item) => item.delivered);
-console.log(rta2);
+console.log({ rta2 });
