@@ -95,6 +95,21 @@ Estos procedimientos reciben dos argumentos:
 node server/08-find.js
 ```
 
+# every()
+
+El método everyes inmutable y consiste retornar un valor lógico verdadero si todos los elementos cumplen con la condición establecida en la función (callback).
+
+Este método recibe dos argumentos:
+
+- La función que itera y evalúa cada elemento del array hasta que al menos uno cumpla con la condición especificada (obligatorio).
+- Un objeto al que puede hacer referencia el contexto this en la función. Si se lo omite, será undefined. Recuerde que this en arrow functions es el objeto global.
+
+### Ejemplo
+
+```
+node server/09-every.js
+```
+
 # includes()
 
 El método includes determina si un array o string incluye un determinado elemento. Devuelve true o false, si existe o no respectivamente.
@@ -107,9 +122,8 @@ Este método recibe dos argumentos:
 ### Ejemplo
 
 ```
-node server/09-includes.js
+node server/10-includes.js
 ```
-
 
 # join()
 
@@ -118,7 +132,17 @@ El método join une los elementos del array, mediante una separación, y retorna
 ### Ejemplo
 
 ```
-node server/10-join.js
+node server/11-join.js
+```
+
+# concat()
+
+El método concat es inmutable y consiste en crear un nuevo array a partir de la unión de otros valores o arrays especificados como argumentos.
+
+### Ejemplo
+
+```
+node server/12-join.js
 ```
 
 ##### Made with ❤️ by Leandro Arturi
