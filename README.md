@@ -142,7 +142,32 @@ El método concat es inmutable y consiste en crear un nuevo array a partir de la
 ### Ejemplo
 
 ```
-node server/12-join.js
+node server/12-concat.js
 ```
+
+
+# flat()
+
+El método flat es inmutable que consiste en retornar un array donde los sub-arrays han sido aplanados hasta una profundidad especificada. El aplanamiento consiste en transformar un array de arrays a una sola dimensión.
+
+Este procedimiento recibe como argumento la profundidad del aplanamiento, por defecto, tiene un valor de 1. Si se desea aplanar todos los sub-arrays en una sola dimensión, utiliza el valor de Infinity.
+
+### Ejemplo
+
+```
+node server/13-flat.js
+```
+
+# flatMap()
+
+El método flatMap es inmutable y consiste en la combinación de los métodos map y flat. Primero realiza la iteración de los elementos del array (como si fuera map), y después los aplana en una sola profundidad (como si fuera flat).
+
+### Ejemplo
+
+```
+node server/14-flatmap.js
+```
+
+
 
 ##### Made with ❤️ by Leandro Arturi
